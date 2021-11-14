@@ -1,0 +1,25 @@
+{
+  "name": "toy_robot_simulator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "tsc --build",
+    "clean": "tsc --build --clean",
+    "start": "node build/src/cli.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jest": "^27.0.2",
+    "@types/node": "^16.11.7",
+    "jest": "^27.3.1",
+    "ts-jest": "^27.0.7",
+    "typescript": "^4.4.4"
+  },
+  "dependencies": {
+    "@types/prompt-sync": "^4.1.1"
+  }
+}
